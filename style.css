@@ -11,21 +11,25 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-}
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid black;
-    height: 400px;
-    width: 500px;
+    flex-direction: column;
 }
 .time{
     color: white;
+    font-weight: bolder;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     display: flex;
     height: 150px;
     width: 150px;
+}
+.date{
+    z-index: 2;
+    box-shadow: 0 0 20px white;
+    background-color: red;
+    transform: rotate(-35deg);
+    position: absolute;
+    top: 25px;
+    left: 0;
+    color: white;
 }
