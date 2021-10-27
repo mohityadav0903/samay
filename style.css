@@ -34,6 +34,7 @@
     color: white;
 }
 .zone{
+    margin-top: 20px;
     position: absolute;
     top: 70%;
     color: white;
@@ -42,12 +43,12 @@
 }
 select{
     color:blue;
-    margin-top: 10px;
-    margin-left: 45px;
-    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 55px;
+    font-size: 20px;
     font-weight: bolder;
 }
 option{
     color: red;
-    font-size: 15px;
+    font-size: 20px;
 }
