@@ -33,3 +33,21 @@
     left: 0;
     color: white;
 }
+.zone{
+    position: absolute;
+    top: 70%;
+    color: white;
+    font-weight:bolder;
+    font-size: 30px;
+}
+select{
+    color:blue;
+    margin-top: 10px;
+    margin-left: 45px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+option{
+    color: red;
+    font-size: 15px;
+}
